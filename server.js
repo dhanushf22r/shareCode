@@ -27,7 +27,7 @@ db.once("open", () => {
 
   // Define routes and handlers
   app.get("/", (req, res) => {
-    const code = `Welcome to Share-Code (or any other text!)
+    const code = `    Welcome to Share-Code (or any other text!)
 
     To begin, click on 'new' and then just paste the code here, 
     as if you were feeding a hungry baby bird. Then, with great 
